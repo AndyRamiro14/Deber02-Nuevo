@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="10dp"
+    tools:context=".MainActivity"
+    android:background="#FDDF7F"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Adivina el Número!"
+        android:layout_marginBottom="20dp"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF6200"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:elevation="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adivina un número entre 1 y 100"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:textColor="#444444"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/numero_ingresado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe tu número aquí"
+        android:inputType="number"
+        android:padding="10dp"
+        android:backgroundTint="#FDFDFD"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="20dp"
+        android:elevation="2dp" />
+
+    <Button
+        android:id="@+id/boton_adivinar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADIVINAR"
+        android:backgroundTint="#673AB7"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Buena suerte!"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:textColor="#0E93FF"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:fontFamily="sans-serif" />
+
+</LinearLayout>
